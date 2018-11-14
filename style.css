@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito:300,300i,400,700,900')
+
+html { padding: 0; margin: 0;}
+body {width:100%; color: #333; font-family: 'Nunito', sans-serif; font-size: 16px; font-weight: 300; line-height: 1.5em; padding: 0; margin: 0;}
+
+header, section {height: 100vh;}
+header {background: url('hiddenjakartaslum.jpg') no-repeat; background-size: cover; background-repeat: no-repeat; overflow: auto; display: flex; justify-content: center; flex-direction: column; text-align: center; color: #f7f7f7; position: relative;}
+#tour header {background: url('ronnyhiddenjakarta.jpg') no-repeat; background-size: cover; background-repeat: no-repeat;}
+#donation header {background: url('makeadonation.jpg') no-repeat; background-size: cover; background-repeat: no-repeat;}
+#story header {background: url('storiesfromtheslums.jpg') no-repeat; background-size: cover; background-repeat: no-repeat;}
+
+nav {background: #21d3a4; position: absolute; top: 0; left: 0; width: 100vw; padding: 0; text-align: center;}
+nav a {display: inline-block; padding: 0.5em 1em; color: #f7f7f7; text-decoration: none; font-weight: 700;}
+nav a:hover {background: #10b27f;}
+
+h1 {font-weight: 700; font-size: 2.75em; line-height: 1.35em; color: #21d3a4; margin: 1.0909em 0 0 0;}
+header h1 {font-weight: 900; font-size: 3.5em; line-height: 1.2857em; color: #d9f4ec; } 
+
+section article {height: 100vh; float: right; box-sizing: border-box; padding: 20vh 2em;}
+
+#hero p, #intro p {color: #f7f7f7;}
+.half article h1 {background: rgba(30, 30, 30, 0.6); box-shadow: 0 0 0 0.1em rgba(30, 30, 30, 0.6); display: inline;}
+.half article p, .half article ul {font-weight: 700; font-size: 1em; color: #f7f7f7;}
+.half article {float: left; width: 50%; padding-bottom: 1.5em;}
+.thirds {box-sizing: border-box; width: 33%; padding: 1.5em 1em; float: left;}
+
+h2, header p {font-weight: 400; font-size: 2.25em; line-height: 1.0909em;}
+header h1 {font-size: 3.5em;}
+header p {margin: 0.3em 0; padding: 0 15vw;}
+
+h3 {font-weight: 700; font-size: 1em; line-height: 1.5em; color: #f7f7f7; margin: 1.5em 0 0 0; text-align: center;}
+
+p {font-weight: 300; font-size: 1em; line-height: 1.5em; margin: 1.5em 0 0 0;}
+
+a {color: #f7f7f7;}
+
+section {width: 100%; overflow: auto; text-align: center; box-sizing: border-box; padding: 0 3em;}
+section ul {text-align: left;}
+
+section#intro {background: url('ronnyslums.jpg') no-repeat #f7f7f7 center top; background-size: cover; }
+#intro article {width: 50%; float:right;} 
+
+section.half {background: #21d3a4; padding: 0 0; text-align: left;}
+
+aside {background: #f7f7f7; border-top: 4px solid #f3f3f3; border-bottom: 4px solid #f3f3f3; text-align: center; overflow: auto; padding: 4.5em 0 6em 0;}
+aside p {padding: 0 15vw;}
+p.testimonial {position: relative;}
+p.testimonial:before {content:"\201C"; position: absolute; bottom: 0; color: #e5e5e5; font-size: 15em; font-weight: 900; z-index: -1;}
+
+a.button {display: inline-block; padding: 0.3em 0.4em; margin: 2em 0 0 0; color: #f5f5f5; font-weight: 700; border: 2px solid #f5f5f5; border-radius: 4px; font-size: 1.375em; text-decoration: none;}
+header .button {width: 200px; margin: 2em 1em;}
+aside .button {color: #21d3a4; border-color: #21d3a4;}
+
+section#facts {background: url('jakartaslumportrait.jpg') no-repeat #f7f7f7 center top; background-size: cover;}
+
+section#ronny {background: url('ronnyhiddenjakarta.jpg') no-repeat #f7f7f7 center top; background-size: cover;}
+#ronny article{float: right;}
+
+section#stories {background: url('jakartaslumkids.jpg') no-repeat #f7f7f7 center top; background-size: cover; display: flex; justify-content: center; flex-direction: column; text-align: center; }
+
+section#bookatour {background: url('jakartaslumtour.jpg') no-repeat #f7f7f7 center top; background-size: cover;}
+section#makeadonation {background: url('slumkid-donation.jpg') no-repeat #f7f7f7 center top; background-size: cover;}
+
+section#story1 {background: url('jakartaslumstory1.jpg') no-repeat #f7f7f7 center top; background-size: cover;}
+section#story2 {background: url('jakartaslumstory2.jpg') no-repeat #f7f7f7 center top; background-size: cover;}
+section#story3 {background: url('jakartaslumstory3.jpg') no-repeat #f7f7f7 center top; background-size: cover;}
+
+#intro article {background: rgba(3, 3, 3, 0.6); margin: 0; text-align: left;}
+
+#stories h1, #stories a {color: #f7f7f7;}
+#stories .button {width: 40vw; margin: 2em auto;}
+
+
+p.testimonial {font-weight: 300i; margin: 1.5em 6em 1.5em 6em; color: #666;}
+#intro a.button, #stories a.button {background: rgba(3, 3, 3, 0.6);}
+
+footer {background: #21d3a4; overflow: auto;}
