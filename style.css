@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Nunito:300,300i,400,700,900')
 
 html { padding: 0; margin: 0;}
-body {width:100%; color: #333; font-family: 'Nunito', sans-serif; font-size: 16px; font-weight: 300; line-height: 1.5em; padding: 0; margin: 0;}
+body {width:100vw; color: #333; font-family: 'Nunito', sans-serif; font-size: 16px; font-weight: 300; line-height: 1.5em; padding: 0; margin: 0;}
 
 header, section {height: 100vh;}
 header {background: url('hiddenjakartaslum.jpg') no-repeat; background-size: cover; background-repeat: no-repeat; overflow: auto; display: flex; justify-content: center; flex-direction: column; text-align: center; color: #f7f7f7; position: relative;}
@@ -21,8 +21,8 @@ section article {height: 100vh; float: right; box-sizing: border-box; padding: 2
 #hero p, #intro p {color: #f7f7f7;}
 .half article h1 {background: rgba(30, 30, 30, 0.6); box-shadow: 0 0 0 0.1em rgba(30, 30, 30, 0.6); display: inline;}
 .half article p, .half article ul {font-weight: 700; font-size: 1em; color: #f7f7f7;}
-.half article {float: left; width: 50%; padding-bottom: 1.5em;}
-.thirds {box-sizing: border-box; width: 33%; padding: 1.5em 1em; float: left;}
+.half article {float: left; width: 50vw; padding-bottom: 1.5em;}
+.thirds {box-sizing: border-box; width: 33vw; padding: 1.5em 1em; float: left;}
 
 h2, header p {font-weight: 400; font-size: 2.25em; line-height: 1.0909em;}
 header h1 {font-size: 3.5em;}
@@ -34,11 +34,11 @@ p {font-weight: 300; font-size: 1em; line-height: 1.5em; margin: 1.5em 0 0 0;}
 
 a {color: #f7f7f7;}
 
-section {width: 100%; overflow: auto; text-align: center; box-sizing: border-box; padding: 0 3em;}
+section {width: 100vw; overflow: auto; text-align: center; box-sizing: border-box; padding: 0 3em;}
 section ul {text-align: left;}
 
 section#intro {background: url('ronnyslums.jpg') no-repeat #f7f7f7 center top; background-size: cover; }
-#intro article {width: 50%; float:right;} 
+#intro article {width: 50vw; float:right;} 
 
 section.half {background: #21d3a4; padding: 0 0; text-align: left;}
 
@@ -75,3 +75,15 @@ p.testimonial {font-weight: 300i; margin: 1.5em 6em 1.5em 6em; color: #666;}
 #intro a.button, #stories a.button {background: rgba(3, 3, 3, 0.6);}
 
 footer {background: #21d3a4; overflow: auto;}
+
+
+@media (max-width: 600px) {
+
+nav {width: 100vw;}
+nav a {font-size: 2em; padding: 1em;}
+aside { padding: 1em;}
+aside p {padding: 0;}
+
+section article, .half article, #intro article, #ronny article {float:none; width: 100vw;}
+
+}
